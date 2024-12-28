@@ -1,0 +1,7 @@
+version: "3" 
+services:
+  springboot-basic-scaling:
+    image: springboot-basic
+    build: .
+    ports:
+       - 1000-1200:9090
